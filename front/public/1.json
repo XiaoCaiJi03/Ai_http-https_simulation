@@ -1,0 +1,181 @@
+[
+  {
+    "_index": "packets-2025-12-28",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "2025-12-28T13:25:01.982338000Z",
+          "frame.time_utc": "2025-12-28T13:25:01.982338000Z",
+          "frame.time_epoch": "2025-12-28T13:25:01.982338000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "66",
+          "frame.cap_len": "66",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.encoding": "0",
+          "frame.coloring_rule.name": "TCP SYN/FIN",
+          "frame.coloring_rule.string": "tcp.flags & 0x02 || tcp.flags.fin == 1"
+        },
+        "eth": {
+          "eth.dst": "4c:c6:4c:c6:a2:8d",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "XiaomiMobile_c6:a2:8d",
+            "eth.dst.oui": "5031500",
+            "eth.dst.oui_resolved": "Beijing Xiaomi Mobile Software Co., Ltd",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "4c:c6:4c:c6:a2:8d",
+            "eth.addr_resolved": "XiaomiMobile_c6:a2:8d",
+            "eth.addr.oui": "5031500",
+            "eth.addr.oui_resolved": "Beijing Xiaomi Mobile Software Co., Ltd",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "50:bb:b5:4a:79:b2",
+          "eth.src_tree": {
+            "eth.src_resolved": "AzureWaveTec_4a:79:b2",
+            "eth.src.oui": "5290933",
+            "eth.src.oui_resolved": "AzureWave Technology Inc.",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "50:bb:b5:4a:79:b2",
+            "eth.addr_resolved": "AzureWaveTec_4a:79:b2",
+            "eth.addr.oui": "5290933",
+            "eth.addr.oui_resolved": "AzureWave Technology Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "52",
+          "ip.id": "0x4f80",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0xeed0",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.31.230",
+          "ip.addr": "192.168.31.230",
+          "ip.src_host": "192.168.31.230",
+          "ip.host": "192.168.31.230",
+          "ip.dst": "142.250.76.234",
+          "ip.addr": "142.250.76.234",
+          "ip.dst_host": "142.250.76.234",
+          "ip.host": "142.250.76.234",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "56907",
+          "tcp.dstport": "443",
+          "tcp.port": "56907",
+          "tcp.port": "443",
+          "tcp.stream": "0",
+          "tcp.stream.pnum": "1",
+          "tcp.completeness": "1",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "0",
+            "tcp.completeness.ack": "0",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·····S"
+          },
+          "tcp.len": "0",
+          "tcp.seq": "0",
+          "tcp.seq_raw": "3125890609",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "0",
+          "tcp.ack_raw": "0",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0002",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "0",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "1",
+            "tcp.flags.syn_tree": {
+              "_ws.expert": {
+                "tcp.connection.syn": "",
+                "_ws.expert.message": "Connection establish request (SYN): server port 443",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "··········S·"
+          },
+          "tcp.window_size_value": "65535",
+          "tcp.window_size": "65535",
+          "tcp.checksum": "0xca13",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "02:04:05:b4:01:03:03:08:01:01:04:02",
+          "tcp.options_tree": {
+            "tcp.options.mss": "02:04:05:b4",
+            "tcp.options.mss_tree": {
+              "tcp.option_kind": "2",
+              "tcp.option_len": "4",
+              "tcp.options.mss_val": "1460"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.wscale": "03:03:08",
+            "tcp.options.wscale_tree": {
+              "tcp.option_kind": "3",
+              "tcp.option_len": "3",
+              "tcp.options.wscale.shift": "8",
+              "tcp.options.wscale.multiplier": "256"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.sack_perm": "04:02",
+            "tcp.options.sack_perm_tree": {
+              "tcp.option_kind": "4",
+              "tcp.option_len": "2"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.stream.client.contiguity_count": "0",
+          "tcp.stream.server.contiguity_count": "1"
+        }
+      }
+    }
+  }
+]

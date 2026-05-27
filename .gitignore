@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vuepress/dist/
+*.tar
+.env
+.env.local
+.env.*.local
+.DS_Store
+thumbs.db
+*.log
+.idea/
+.claude/
+__pycache__/
+*.pyc

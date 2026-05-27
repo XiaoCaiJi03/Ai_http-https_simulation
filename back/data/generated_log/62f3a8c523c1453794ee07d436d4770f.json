@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /home HTTP/1.1\nHost: www.normal-site.com\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8\n\n"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 502 Bad Gateway\r\n\r\nConnection Failed: [Errno 11001] getaddrinfo failed"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "62f3a8c523c1453794ee07d436d4770f",
+  "timestamp": "2026-01-09 11:32:47"
+}

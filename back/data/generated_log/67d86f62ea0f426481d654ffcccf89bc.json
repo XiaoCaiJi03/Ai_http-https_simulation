@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /api/user?id=1001' OR '1'='1-- HTTP/1.1\nHost:  www.example.com \nUser-Agent: EvilBot/1.0\nAccept: */*"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": ""
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "67d86f62ea0f426481d654ffcccf89bc",
+  "timestamp": "2026-01-06 23:07:25"
+}

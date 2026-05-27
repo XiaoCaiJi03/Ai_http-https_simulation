@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /login.jsp/user?id=1001' OR '1'='1-- HTTP/1.1\nHost: www.testfire.net\nUser-Agent: EvilBot/1.0\nConnection: keep-alive"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 400 Bad Request\r\nServer: Apache-Coyote/1.1\r\nTransfer-Encoding: chunked\r\nDate: Tue, 06 Jan 2026 12:09:50 GMT\r\nConnection: close\r\n\r\n0\r\n\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "9439445de235459ca8a9a13ea92fd211",
+  "timestamp": "2026-01-06 20:09:50"
+}

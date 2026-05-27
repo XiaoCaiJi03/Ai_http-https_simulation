@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /index.html HTTP/1.1\nHost: www.example.com\nUser-Agent: Simulation-Lab/1.0\nConnection: keep-alive\nAccept: */*\n\n"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 404 Not Found\r\nDate: Sat, 17 Jan 2026 09:10:18 GMT\r\nContent-Type: text/html\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nCF-RAY: 9bf4b7fd395c840a-LAX\r\nAge: 90\r\ncf-cache-status: HIT\r\nServer: cloudflare\r\n\r\n201\r\n<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.<p><a href=\"https://iana.org/domains/example\">Learn more</a></div></body></html>\n\r\n0\r\n\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "2fddf96987cc46e3829b4dd7b5e7c2ef",
+  "timestamp": "2026-01-17 17:10:18"
+}

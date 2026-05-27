@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "POST /api/login HTTP/1.1\nHost: baidu.com\nContent-Type: application/json\nConnection: keep-alive\n\n{\"username\": \"admin\", \"secure\": true}"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 301 Moved Permanently\r\nLocation: http://www.baidu.com/api/login\r\nDate: Wed, 07 Jan 2026 17:07:48 GMT\r\nContent-Length: 0\r\nContent-Type: text/plain; charset=utf-8\r\n\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "501c8271902c4ca9bd8e9dfa31d45651",
+  "timestamp": "2026-01-08 01:07:48"
+}

@@ -1,0 +1,18 @@
+{
+  "operation": "certificate_generation",
+  "request": {
+    "certType": "expired",
+    "domain": "www.example.com",
+    "validityDays": 30,
+    "organization": "Test Organization",
+    "country": "CN",
+    "keySize": 1024
+  },
+  "response": {
+    "certificate_filename": "",
+    "certificate_type": "",
+    "status": "success"
+  },
+  "recordId": "a4e661b3e6b04f7ea5e522546c736e43",
+  "timestamp": "2026-01-07 22:49:39"
+}

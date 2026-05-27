@@ -1,0 +1,147 @@
+{
+  "_index": "packets-2026-01-05",
+  "_score": null,
+  "_source": {
+    "layers": {
+      "frame": {
+        "frame.encap_type": "129",
+        "frame.time": "2026-01-04T18:13:14.473768000Z",
+        "frame.time_utc": "2026-01-04T18:13:14.473768000Z",
+        "frame.time_epoch": "2026-01-04T18:13:14.473768000Z",
+        "frame.offset_shift": "0.000000000",
+        "frame.time_delta": "0.000000000",
+        "frame.time_delta_displayed": "0.000000000",
+        "frame.time_relative": "0.001795000",
+        "frame.number": "5",
+        "frame.len": "182",
+        "frame.cap_len": "182",
+        "frame.marked": "0",
+        "frame.ignored": "0",
+        "frame.protocols": "raw:ip:tcp:http:json",
+        "frame.encoding": "0"
+      },
+      "raw": "Raw packet data",
+      "ip": {
+        "ip.version": "4",
+        "ip.hdr_len": "20",
+        "ip.dsfield": "0x00",
+        "ip.dsfield_tree": {
+          "ip.dsfield.dscp": "0",
+          "ip.dsfield.ecn": "0"
+        },
+        "ip.len": "182",
+        "ip.id": "0x0001",
+        "ip.flags": "0x00",
+        "ip.flags_tree": {
+          "ip.flags.rb": "0",
+          "ip.flags.df": "0",
+          "ip.flags.mf": "0"
+        },
+        "ip.frag_offset": "0",
+        "ip.ttl": "64",
+        "ip.proto": "6",
+        "ip.checksum": "0x2222",
+        "ip.checksum.status": "2",
+        "ip.src": "103.235.46.39",
+        "ip.addr": "192.168.1.101",
+        "ip.src_host": "103.235.46.39",
+        "ip.host": "192.168.1.101",
+        "ip.dst": "192.168.1.101",
+        "ip.dst_host": "192.168.1.101",
+        "ip.stream": "0"
+      },
+      "tcp": {
+        "tcp.srcport": "80",
+        "tcp.dstport": "34179",
+        "tcp.port": "34179",
+        "tcp.stream": "0",
+        "tcp.stream.pnum": "5",
+        "tcp.completeness": "15",
+        "tcp.completeness_tree": {
+          "tcp.completeness.rst": "0",
+          "tcp.completeness.fin": "0",
+          "tcp.completeness.data": "1",
+          "tcp.completeness.ack": "1",
+          "tcp.completeness.syn-ack": "1",
+          "tcp.completeness.syn": "1",
+          "tcp.completeness.str": "··DASS"
+        },
+        "tcp.len": "142",
+        "tcp.seq": "1",
+        "tcp.seq_raw": "3728883",
+        "tcp.nxtseq": "143",
+        "tcp.ack": "179",
+        "tcp.ack_raw": "7121047",
+        "tcp.hdr_len": "20",
+        "tcp.flags": "0x0018",
+        "tcp.flags_tree": {
+          "tcp.flags.res": "0",
+          "tcp.flags.ae": "0",
+          "tcp.flags.cwr": "0",
+          "tcp.flags.ece": "0",
+          "tcp.flags.urg": "0",
+          "tcp.flags.ack": "1",
+          "tcp.flags.push": "1",
+          "tcp.flags.reset": "0",
+          "tcp.flags.syn": "0",
+          "tcp.flags.fin": "0",
+          "tcp.flags.str": "·······AP···"
+        },
+        "tcp.window_size_value": "65535",
+        "tcp.window_size": "65535",
+        "tcp.window_size_scalefactor": "-2",
+        "tcp.checksum": "0x98ce",
+        "tcp.checksum.status": "2",
+        "tcp.urgent_pointer": "0",
+        "Timestamps": {
+          "tcp.time_relative": "0.001795000",
+          "tcp.time_delta": "0.000000000"
+        },
+        "tcp.analysis": {
+          "tcp.analysis.acks_frame": "4",
+          "tcp.analysis.initial_rtt": "0.001795000",
+          "tcp.analysis.bytes_in_flight": "142",
+          "tcp.analysis.push_bytes_sent": "142"
+        },
+        "tcp.stream.client.contiguity_count": "1",
+        "tcp.stream.server.contiguity_count": "1",
+        "tcp.payload": "48:54:54:50:2f:31:2e:31:20:32:30:30:20:4f:4b:0d:0a:53:65:72:76:65:72:3a:20:6e:67:69:6e:78:0d:0a:43:6f:6e:74:65:6e:74:2d:54:79:70:65:3a:20:61:70:70:6c:69:63:61:74:69:6f:6e:2f:6a:73:6f:6e:0d:0a:43:6f:6e:74:65:6e:74:2d:4c:65:6e:67:74:68:3a:20:35:36:0d:0a:0d:0a:7b:22:73:74:61:74:75:73:22:3a:22:4f:4b:22:2c:22:73:65:73:73:69:6f:6e:5f:69:64:22:3a:22:30:5f:33:30:61:33:65:63:65:30:22:2c:22:6d:65:74:68:6f:64:22:3a:22:47:45:54:22:7d"
+      },
+      "http": {
+        "HTTP/1.1 200 OK\\r\\n": {
+          "http.response.version": "HTTP/1.1",
+          "http.response.code": "200",
+          "http.response.code.desc": "OK",
+          "http.response.phrase": "OK"
+        },
+        "http.server": "nginx",
+        "http.response.line": "Content-Length: 56\r\n",
+        "http.content_type": "application/json",
+        "http.content_length_header": "56",
+        "http.content_length_header_tree": {
+          "http.content_length": "56"
+        },
+        "\\r\\n": "",
+        "http.response": "1",
+        "http.request_in": "4",
+        "http.time": "0.000000000",
+        "http.request.uri": "/api/resource",
+        "http.request.full_uri": "http://103.235.46.39/api/resource",
+        "http.file_data": "7b:22:73:74:61:74:75:73:22:3a:22:4f:4b:22:2c:22:73:65:73:73:69:6f:6e:5f:69:64:22:3a:22:30:5f:33:30:61:33:65:63:65:30:22:2c:22:6d:65:74:68:6f:64:22:3a:22:47:45:54:22:7d"
+      },
+      "json": {
+        "json.object": "{\"status\":\"OK\",\"session_id\":\"0_30a3ece0\",\"method\":\"GET\"}",
+        "json.object_tree": {
+          "json.member": "method",
+          "json.member_tree": {
+            "json.path_with_value": "/method:GET",
+            "json.member_with_value": "method:GET",
+            "json.value.string": "GET",
+            "json.key": "method",
+            "json.path": "/method"
+          }
+        }
+      }
+    }
+  }
+}

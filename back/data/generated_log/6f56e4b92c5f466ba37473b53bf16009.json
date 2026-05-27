@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /index.html HTTP/1.1\nHost: www.baidu.com\nUser-Agent: Simulation-Lab/1.0\nConnection: keep-alive\nAccept: */*\n\n"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 502 Bad Gateway\r\n\r\nConnection Failed: [Errno 11001] getaddrinfo failed"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "6f56e4b92c5f466ba37473b53bf16009",
+  "timestamp": "2026-03-08 14:04:34"
+}

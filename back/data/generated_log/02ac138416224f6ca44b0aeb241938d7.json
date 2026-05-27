@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "POST /api/login HTTP/1.1\nHost: testfire.net\nContent-Type: application/json\nConnection: keep-alive\n\n{\"username\": \"admin\", \"password\": true}"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 400 Bad Request\r\nServer: Apache-Coyote/1.1\r\nContent-Type: text/plain\r\nContent-Length: 28\r\nDate: Tue, 06 Jan 2026 12:16:08 GMT\r\nConnection: close\r\n\r\n{\"error\":\"body is not JSON\"}"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "02ac138416224f6ca44b0aeb241938d7",
+  "timestamp": "2026-01-06 20:16:08"
+}

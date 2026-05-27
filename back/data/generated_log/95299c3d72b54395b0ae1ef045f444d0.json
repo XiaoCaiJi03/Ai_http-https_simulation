@@ -1,0 +1,18 @@
+{
+  "operation": "certificate_generation",
+  "request": {
+    "certType": "weak",
+    "domain": "www.example.com",
+    "validityDays": 365,
+    "organization": "Test Organization",
+    "country": "CN",
+    "keySize": 1024
+  },
+  "response": {
+    "certificate_filename": "",
+    "certificate_type": "",
+    "status": "success"
+  },
+  "recordId": "95299c3d72b54395b0ae1ef045f444d0",
+  "timestamp": "2026-01-08 01:51:00"
+}

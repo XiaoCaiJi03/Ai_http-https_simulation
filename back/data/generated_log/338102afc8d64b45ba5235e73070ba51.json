@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "POST /api/login HTTP/1.1\nHost: www.baidu.com\nContent-Type: application/json\nConnection: keep-alive\n\n{\"username\": \"admin\", \"secure\": true}"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 404 Not Found\r\nContent-Length: 207\r\nContent-Type: text/html; charset=iso-8859-1\r\nDate: Tue, 06 Jan 2026 18:34:28 GMT\r\nServer: Apache\r\n\r\n<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL /api/login was not found on this server.</p>\n</body></html>\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "338102afc8d64b45ba5235e73070ba51",
+  "timestamp": "2026-01-07 02:34:28"
+}

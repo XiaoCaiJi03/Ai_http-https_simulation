@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /index.html HTTP/1.1\nHost: www.baidu.com\nUser-Agent: Simulation-Lab/1.0\nConnection: keep-alive\nAccept: */*"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": ""
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "21fccd9382b4492fa141e25c1f44b9eb",
+  "timestamp": "2026-01-09 00:29:58"
+}

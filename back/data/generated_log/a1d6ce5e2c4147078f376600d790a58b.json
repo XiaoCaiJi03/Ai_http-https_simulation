@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /index.html/../../ HTTP/1.1\nHost: www.baidu.com\nUser-Agent: Simulation-Lab/1.0\nConnection: keep-alive\nAccept: */*\n\n"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 302 Found\r\nCache-Control: max-age=86400\r\nContent-Length: 222\r\nContent-Type: text/html; charset=iso-8859-1\r\nDate: Tue, 06 Jan 2026 18:36:45 GMT\r\nExpires: Wed, 07 Jan 2026 18:36:45 GMT\r\nLocation: https://www.baidu.com/search/error.html\r\nServer: Apache\r\n\r\n<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>302 Found</title>\n</head><body>\n<h1>Found</h1>\n<p>The document has moved <a href=\"http://www.baidu.com/search/error.html\">here</a>.</p>\n</body></html>\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "a1d6ce5e2c4147078f376600d790a58b",
+  "timestamp": "2026-01-07 02:36:45"
+}

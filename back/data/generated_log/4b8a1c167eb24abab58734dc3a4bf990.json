@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "POST /login.jsp HTTP/1.1\nHost: www.qq.com\nContent-Type: application/json\nConnection: keep-alive\n\n{\"username\": \"admin\", \"password\": \"123456\"}"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 307 Temporary Redirect\r\nServer: stgw\r\nDate: Fri, 09 Jan 2026 03:29:18 GMT\r\nContent-Type: text/html\r\nContent-Length: 163\r\nConnection: keep-alive\r\nLocation: https://www.qq.com/login.jsp\r\n\r\n<html>\r\n<head><title>307 Temporary Redirect</title></head>\r\n<body>\r\n<center><h1>307 Temporary Redirect</h1></center>\r\n<hr><center>stgw</center>\r\n</body>\r\n</html>\r\nHTTP/1.1 400 Bad Request\r\nServer: stgw\r\nDate: Fri, 09 Jan 2026 03:29:18 GMT\r\nContent-Type: text/html\r\nContent-Length: 149\r\nConnection: close\r\n\r\n<html>\r\n<head><title>400 Bad Request</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<hr><center>stgw</center>\r\n</body>\r\n</html>\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "4b8a1c167eb24abab58734dc3a4bf990",
+  "timestamp": "2026-01-09 11:29:20"
+}

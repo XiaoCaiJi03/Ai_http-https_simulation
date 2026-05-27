@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "POST /api/login HTTP/1.1\nHost: www.testfire.com\nContent-Type: application/json\nConnection: keep-alive\n\n{\"username\": \"admin\", \"password\": \"123456\"}"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 502 Bad Gateway\r\n\r\nConnection Failed: [Errno 11002] getaddrinfo failed"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "7da212b146e648ccb682ad0a7bc19f81",
+  "timestamp": "2026-01-08 13:03:48"
+}

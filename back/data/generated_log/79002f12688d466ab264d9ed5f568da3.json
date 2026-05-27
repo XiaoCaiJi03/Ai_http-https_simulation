@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "POST /api/comment HTTP/1.1 \nHost:   www.example.com   \nContent-Type: application/x-www-form-urlencoded \nContent-Length: 68 \n\ncontent=<script>alert(document.cookie)</script>&article_id=5\n"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 405 Not Allowed\r\nDate: Tue, 06 Jan 2026 14:30:11 GMT\r\nContent-Type: text/html\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nServer: cloudflare\r\nCF-RAY: 9b9be9201c2a8892-LHR\r\n\r\n200\r\n<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.<p><a href=\"https://iana.org/domains/example\">Learn more</a></div></body></html>\r\n0\r\n\r\nHTTP/1.1 400 Bad Request\r\nServer: cloudflare\r\nDate: Tue, 06 Jan 2026 14:30:11 GMT\r\nContent-Type: text/html\r\nContent-Length: 155\r\nConnection: close\r\nCF-RAY: -\r\n\r\n<html>\r\n<head><title>400 Bad Request</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "79002f12688d466ab264d9ed5f568da3",
+  "timestamp": "2026-01-06 22:30:11"
+}

@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /index.html/../ HTTP/1.1\nHost: www.example.com\nUser-Agent: Simulation-Lab/1.0\nConnection: keep-alive\nAccept: */*\n\n"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 200 OK\r\nDate: Wed, 07 Jan 2026 18:21:17 GMT\r\nContent-Type: text/html\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nCF-RAY: 9ba57954d84a888f-LHR\r\nLast-Modified: Mon, 05 Jan 2026 20:20:37 GMT\r\nAllow: GET, HEAD\r\nCF-Cache-Status: EXPIRED\r\nAccept-Ranges: bytes\r\nServer: cloudflare\r\n\r\n201\r\n<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.<p><a href=\"https://iana.org/domains/example\">Learn more</a></div></body></html>\n\r\n0\r\n\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "b39d2f6df98741b5969549aeda4f9377",
+  "timestamp": "2026-01-08 02:21:17"
+}

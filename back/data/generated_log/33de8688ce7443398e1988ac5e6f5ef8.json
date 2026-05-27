@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /index.html HTTP/\nHost: www.example.com\nUser-Agent: Simulation-Lab/1.0\nConnection: keep-alive\nAccept: */*\n\n"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 400 Bad Request\r\nServer: cloudflare\r\nDate: Wed, 07 Jan 2026 18:18:58 GMT\r\nContent-Type: text/html\r\nContent-Length: 155\r\nConnection: close\r\nCF-RAY: -\r\n\r\n<html>\r\n<head><title>400 Bad Request</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "33de8688ce7443398e1988ac5e6f5ef8",
+  "timestamp": "2026-01-08 02:18:58"
+}

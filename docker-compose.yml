@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  # Python 后端
+  backend:
+    build: ./back
+    # 指定后端镜像名称
+    image: ai-http_https-back:v1.0.0
+    ports:
+      - "60110:60110"
+    volumes:
+      - ./back:/app
+    networks:
+      - project-network
+
+  # Vue 前端
+  frontend:
+    build: ./front
+    # 指定前端镜像名称
+    image: ai-http_https-front:v1.0.0
+    ports:
+      - "60111:60111"
+    depends_on:
+      - backend
+    networks:
+      - project-network
+
+# 乌班图测试服务器
+  # ubuntu-test:
+  #   image: ubuntu:latest
+  #   container_name: ubuntu_tester
+  #   tty: true # 保持容器运行
+  #   stdin_open: true
+  #   command: /bin/bash
+  #   networks:
+  #     - project-network
+
+networks:
+  project-network:
+    driver: bridge

@@ -1,0 +1,128 @@
+{
+  "_index": "packets-2026-01-05",
+  "_score": null,
+  "_source": {
+    "layers": {
+      "frame": {
+        "frame.encap_type": "129",
+        "frame.time": "2026-01-04T17:34:27.497458000Z",
+        "frame.time_utc": "2026-01-04T17:34:27.497458000Z",
+        "frame.time_epoch": "2026-01-04T17:34:27.497458000Z",
+        "frame.offset_shift": "0.000000000",
+        "frame.time_delta": "0.002963000",
+        "frame.time_delta_displayed": "0.002963000",
+        "frame.time_relative": "0.002963000",
+        "frame.number": "4",
+        "frame.len": "218",
+        "frame.cap_len": "218",
+        "frame.marked": "0",
+        "frame.ignored": "0",
+        "frame.protocols": "raw:ip:tcp:http",
+        "frame.encoding": "0"
+      },
+      "raw": "Raw packet data",
+      "ip": {
+        "ip.version": "4",
+        "ip.hdr_len": "20",
+        "ip.dsfield": "0x00",
+        "ip.dsfield_tree": {
+          "ip.dsfield.dscp": "0",
+          "ip.dsfield.ecn": "0"
+        },
+        "ip.len": "218",
+        "ip.id": "0x0001",
+        "ip.flags": "0x00",
+        "ip.flags_tree": {
+          "ip.flags.rb": "0",
+          "ip.flags.df": "0",
+          "ip.flags.mf": "0"
+        },
+        "ip.frag_offset": "0",
+        "ip.ttl": "64",
+        "ip.proto": "6",
+        "ip.checksum": "0x21fe",
+        "ip.checksum.status": "2",
+        "ip.src": "192.168.1.101",
+        "ip.addr": "103.235.46.39",
+        "ip.src_host": "192.168.1.101",
+        "ip.host": "103.235.46.39",
+        "ip.dst": "103.235.46.39",
+        "ip.dst_host": "103.235.46.39",
+        "ip.stream": "0"
+      },
+      "tcp": {
+        "tcp.srcport": "34581",
+        "tcp.dstport": "80",
+        "tcp.port": "80",
+        "tcp.stream": "0",
+        "tcp.stream.pnum": "4",
+        "tcp.completeness": "7",
+        "tcp.completeness_tree": {
+          "tcp.completeness.rst": "0",
+          "tcp.completeness.fin": "0",
+          "tcp.completeness.data": "0",
+          "tcp.completeness.ack": "1",
+          "tcp.completeness.syn-ack": "1",
+          "tcp.completeness.syn": "1",
+          "tcp.completeness.str": "···ASS"
+        },
+        "tcp.len": "178",
+        "tcp.seq": "1",
+        "tcp.seq_raw": "7120869",
+        "tcp.nxtseq": "179",
+        "tcp.ack": "1",
+        "tcp.ack_raw": "3728883",
+        "tcp.hdr_len": "20",
+        "tcp.flags": "0x0018",
+        "tcp.flags_tree": {
+          "tcp.flags.res": "0",
+          "tcp.flags.ae": "0",
+          "tcp.flags.cwr": "0",
+          "tcp.flags.ece": "0",
+          "tcp.flags.urg": "0",
+          "tcp.flags.ack": "1",
+          "tcp.flags.push": "1",
+          "tcp.flags.reset": "0",
+          "tcp.flags.syn": "0",
+          "tcp.flags.fin": "0",
+          "tcp.flags.str": "·······AP···"
+        },
+        "tcp.window_size_value": "65535",
+        "tcp.window_size": "65535",
+        "tcp.window_size_scalefactor": "-2",
+        "tcp.checksum": "0x569a",
+        "tcp.checksum.status": "2",
+        "tcp.urgent_pointer": "0",
+        "Timestamps": {
+          "tcp.time_relative": "0.002963000",
+          "tcp.time_delta": "0.002963000"
+        },
+        "tcp.analysis": {
+          "tcp.analysis.initial_rtt": "0.002963000",
+          "tcp.analysis.bytes_in_flight": "178",
+          "tcp.analysis.push_bytes_sent": "178"
+        },
+        "tcp.stream.client.contiguity_count": "1",
+        "tcp.stream.server.contiguity_count": "1",
+        "tcp.payload": "47:45:54:20:2f:61:70:69:2f:72:65:73:6f:75:72:63:65:20:48:54:54:50:2f:31:2e:31:0d:0a:48:6f:73:74:3a:20:31:30:33:2e:32:33:35:2e:34:36:2e:33:39:0d:0a:55:73:65:72:2d:41:67:65:6e:74:3a:20:4d:6f:7a:69:6c:6c:61:2f:35:2e:30:20:28:57:69:6e:64:6f:77:73:20:4e:54:20:31:30:2e:30:3b:20:57:69:6e:36:34:3b:20:78:36:34:29:20:43:68:72:6f:6d:65:2f:31:32:30:2e:30:2e:30:2e:30:20:53:61:66:61:72:69:2f:35:33:37:2e:33:36:0d:0a:43:6f:6f:6b:69:65:3a:20:53:45:53:53:49:4f:4e:49:44:5f:33:34:36:33:36:31:32:36:30:36:39:36:36:30:38:37:31:34:32:34:38:0d:0a:0d:0a"
+      },
+      "http": {
+        "GET /api/resource HTTP/1.1\\r\\n": {
+          "http.request.method": "GET",
+          "http.request.uri": "/api/resource",
+          "http.request.version": "HTTP/1.1"
+        },
+        "http.host": "103.235.46.39",
+        "http.request.line": "Cookie: SESSIONID_346361260696608714248\r\n",
+        "http.user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36",
+        "http.cookie": "SESSIONID_346361260696608714248",
+        "http.cookie_tree": {
+          "http.cookie_pair": "SESSIONID_346361260696608714248"
+        },
+        "\\r\\n": "",
+        "http.request": "1",
+        "http.request.full_uri": "http://103.235.46.39/api/resource"
+      }
+    }
+  }
+}

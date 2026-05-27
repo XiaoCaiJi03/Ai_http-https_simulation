@@ -1,0 +1,130 @@
+{
+  "_index": "packets-2026-01-05",
+  "_score": null,
+  "_source": {
+    "layers": {
+      "frame": {
+        "frame.encap_type": "129",
+        "frame.time": "2026-01-04T18:15:04.383504000Z",
+        "frame.time_utc": "2026-01-04T18:15:04.383504000Z",
+        "frame.time_epoch": "2026-01-04T18:15:04.383504000Z",
+        "frame.offset_shift": "0.000000000",
+        "frame.time_delta": "0.001093000",
+        "frame.time_delta_displayed": "0.001093000",
+        "frame.time_relative": "0.078817000",
+        "frame.number": "8",
+        "frame.len": "253",
+        "frame.cap_len": "253",
+        "frame.marked": "0",
+        "frame.ignored": "0",
+        "frame.protocols": "raw:ip:tcp:tls",
+        "frame.encoding": "0"
+      },
+      "raw": "Raw packet data",
+      "ip": {
+        "ip.version": "4",
+        "ip.hdr_len": "20",
+        "ip.dsfield": "0x00",
+        "ip.dsfield_tree": {
+          "ip.dsfield.dscp": "0",
+          "ip.dsfield.ecn": "0"
+        },
+        "ip.len": "253",
+        "ip.id": "0x0001",
+        "ip.flags": "0x00",
+        "ip.flags_tree": {
+          "ip.flags.rb": "0",
+          "ip.flags.df": "0",
+          "ip.flags.mf": "0"
+        },
+        "ip.frag_offset": "0",
+        "ip.ttl": "64",
+        "ip.proto": "6",
+        "ip.checksum": "0xda6a",
+        "ip.checksum.status": "2",
+        "ip.src": "121.41.100.89",
+        "ip.addr": "192.168.1.101",
+        "ip.src_host": "121.41.100.89",
+        "ip.host": "192.168.1.101",
+        "ip.dst": "192.168.1.101",
+        "ip.dst_host": "192.168.1.101",
+        "ip.stream": "0"
+      },
+      "tcp": {
+        "tcp.srcport": "443",
+        "tcp.dstport": "34423",
+        "tcp.port": "34423",
+        "tcp.stream": "0",
+        "tcp.stream.pnum": "8",
+        "tcp.completeness": "15",
+        "tcp.completeness_tree": {
+          "tcp.completeness.rst": "0",
+          "tcp.completeness.fin": "0",
+          "tcp.completeness.data": "1",
+          "tcp.completeness.ack": "1",
+          "tcp.completeness.syn-ack": "1",
+          "tcp.completeness.syn": "1",
+          "tcp.completeness.str": "··DASS"
+        },
+        "tcp.len": "213",
+        "tcp.seq": "157",
+        "tcp.seq_raw": "3729039",
+        "tcp.nxtseq": "370",
+        "tcp.ack": "80",
+        "tcp.ack_raw": "7120948",
+        "tcp.hdr_len": "20",
+        "tcp.flags": "0x0018",
+        "tcp.flags_tree": {
+          "tcp.flags.res": "0",
+          "tcp.flags.ae": "0",
+          "tcp.flags.cwr": "0",
+          "tcp.flags.ece": "0",
+          "tcp.flags.urg": "0",
+          "tcp.flags.ack": "1",
+          "tcp.flags.push": "1",
+          "tcp.flags.reset": "0",
+          "tcp.flags.syn": "0",
+          "tcp.flags.fin": "0",
+          "tcp.flags.str": "·······AP···"
+        },
+        "tcp.window_size_value": "8192",
+        "tcp.window_size": "8192",
+        "tcp.window_size_scalefactor": "-2",
+        "tcp.checksum": "0xaea1",
+        "tcp.checksum.status": "2",
+        "tcp.urgent_pointer": "0",
+        "Timestamps": {
+          "tcp.time_relative": "0.078817000",
+          "tcp.time_delta": "0.001093000"
+        },
+        "tcp.analysis": {
+          "tcp.analysis.initial_rtt": "0.075684000",
+          "tcp.analysis.bytes_in_flight": "369",
+          "tcp.analysis.push_bytes_sent": "213"
+        },
+        "tcp.stream.client.contiguity_count": "1",
+        "tcp.stream.server.contiguity_count": "1",
+        "tcp.payload": "16:03:04:00:d0:0f:00:00:cc:04:03:00:c8:c8:04:5c:bf:2c:7e:86:49:fc:77:70:8c:1b:94:ce:75:e0:bf:da:82:af:eb:12:4d:96:26:28:5c:13:7f:8d:21:3e:87:4d:76:1e:d6:00:b8:e9:7c:d6:ca:c3:fb:88:4e:a9:c3:e5:46:56:1b:28:6c:ed:67:17:32:6d:b7:8b:72:5f:2e:df:e5:4f:31:e4:1b:de:69:5d:a8:fc:0c:4b:21:be:fb:34:0e:83:db:0d:a9:ed:07:7c:a9:b0:b4:58:f2:6c:cd:94:15:16:5e:f3:2c:a7:ab:38:17:e3:3b:68:27:17:6f:63:77:ec:81:ff:d7:ff:55:5b:7e:10:aa:4d:2a:4a:c9:44:d5:f8:ce:eb:b1:3d:14:4b:35:c2:2b:81:d8:45:bf:c8:1a:f8:c2:78:6b:32:01:3b:8f:65:6f:a8:84:64:76:bf:83:d5:ba:f5:8d:f2:be:bb:2d:d7:6f:c9:eb:3d:8f:70:d1:2f:94:8f:3a:0e:fd:3d:72:7a:55:bf:dc:bb:3a:a9:8d:64:d7:c9:fe"
+      },
+      "tls": {
+        "tls.stream": "0",
+        "tls.record": {
+          "tls.record.content_type": "22",
+          "tls.record.version": "0x0304",
+          "tls.record.length": "208",
+          "tls.handshake": {
+            "tls.handshake.type": "15",
+            "tls.handshake.length": "204",
+            "tls.handshake.sig_hash_alg": "0x0403",
+            "tls.handshake.sig_hash_alg_tree": {
+              "tls.handshake.sig_hash_hash": "4",
+              "tls.handshake.sig_hash_sig": "3"
+            },
+            "tls.handshake.client_cert_vrfy.sig_len": "200",
+            "tls.handshake.client_cert_vrfy.sig": "c8:04:5c:bf:2c:7e:86:49:fc:77:70:8c:1b:94:ce:75:e0:bf:da:82:af:eb:12:4d:96:26:28:5c:13:7f:8d:21:3e:87:4d:76:1e:d6:00:b8:e9:7c:d6:ca:c3:fb:88:4e:a9:c3:e5:46:56:1b:28:6c:ed:67:17:32:6d:b7:8b:72:5f:2e:df:e5:4f:31:e4:1b:de:69:5d:a8:fc:0c:4b:21:be:fb:34:0e:83:db:0d:a9:ed:07:7c:a9:b0:b4:58:f2:6c:cd:94:15:16:5e:f3:2c:a7:ab:38:17:e3:3b:68:27:17:6f:63:77:ec:81:ff:d7:ff:55:5b:7e:10:aa:4d:2a:4a:c9:44:d5:f8:ce:eb:b1:3d:14:4b:35:c2:2b:81:d8:45:bf:c8:1a:f8:c2:78:6b:32:01:3b:8f:65:6f:a8:84:64:76:bf:83:d5:ba:f5:8d:f2:be:bb:2d:d7:6f:c9:eb:3d:8f:70:d1:2f:94:8f:3a:0e:fd:3d:72:7a:55:bf:dc:bb:3a:a9:8d:64:d7:c9:fe"
+          }
+        }
+      }
+    }
+  }
+}

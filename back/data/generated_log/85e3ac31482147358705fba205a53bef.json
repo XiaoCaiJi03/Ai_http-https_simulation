@@ -1,0 +1,18 @@
+{
+  "operation": "certificate_generation",
+  "request": {
+    "certType": "self-signed",
+    "domain": "www.example.com",
+    "validityDays": 365,
+    "organization": "Test Organization",
+    "country": "CN",
+    "keySize": 1024
+  },
+  "response": {
+    "certificate_filename": "",
+    "certificate_type": "",
+    "status": "success"
+  },
+  "recordId": "85e3ac31482147358705fba205a53bef",
+  "timestamp": "2026-01-08 01:45:06"
+}

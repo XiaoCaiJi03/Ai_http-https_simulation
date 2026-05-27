@@ -1,0 +1,18 @@
+{
+  "operation": "certificate_generation",
+  "request": {
+    "certType": "ca",
+    "domain": "www.example.com",
+    "validityDays": 3650,
+    "organization": "Test Organization",
+    "country": "CN",
+    "keySize": 512
+  },
+  "response": {
+    "certificate_filename": "",
+    "certificate_type": "",
+    "status": "success"
+  },
+  "recordId": "a71a3022bc7d46df8c9e8249b04ddc75",
+  "timestamp": "2026-01-08 13:08:55"
+}

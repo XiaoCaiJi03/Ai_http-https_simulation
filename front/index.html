@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTTP/HTTPS请求仿真（Wireshark抓包联动）</title>
+    <style>
+      /* 页面加载过渡样式，提升体验 */
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f5f7fa;
+      }
+      #app {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+      }
+      #app.loaded {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

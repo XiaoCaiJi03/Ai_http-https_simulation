@@ -1,0 +1,58 @@
+/* 全局样式重置与通用配置，追求极致视觉一致性 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #303133;
+  background-color: #f5f7fa;
+}
+
+/* 滚动条样式优化，提升视觉质感 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c0c4cc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #909399;
+}
+
+/* 通用容器样式 */
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 通用按钮样式补充（兼容Element Plus） */
+.el-button--text {
+  color: #409eff !important;
+}
+
+.el-button--text:hover {
+  color: #66b1ff !important;
+  background-color: rgba(64, 158, 255, 0.05) !important;
+}
+
+/* JSON查看器样式优化 */
+.json-viewer {
+  font-family: "Consolas", "Monaco", monospace !important;
+}

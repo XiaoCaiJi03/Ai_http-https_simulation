@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "POST /api/login HTTP/1.1\nHost: localhost:8443\nContent-Type: application/json\nConnection: keep-alive\n\n{\"username\": \"admin\", \"secure\": true}"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": ""
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "736b7cacef4d4e12bb72173fab59eca7",
+  "timestamp": "2026-01-06 23:32:49"
+}

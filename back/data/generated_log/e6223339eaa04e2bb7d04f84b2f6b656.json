@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "POST /s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=%E6%A1%82%E6%9E%97%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6 HTTP/1.1\nHost: www.baidu.com\nUser-Agent: Simulation-Lab/1.0\nConnection: keep-alive\nAccept: */*\n\n"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 302 Found\r\nLocation: https://wappass.baidu.com/static/captcha/tuxing_v2.html?&logid=11737315791271511693&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https%3A%2F%2Fwww.baidu.com%2Fs%3Fie%3Dutf-8%26f%3D8%26rsv_bp%3D1%26tn%3Dbaidu%26wd%3D%25E6%25A1%2582%25E6%259E%2597%25E7%2594%25B5%25E5%25AD%2590%25E7%25A7%2591%25E6%258A%2580%25E5%25A4%25A7%25E5%25AD%25A6&ext=x9G9QDmMXq%2FNo87gjGO0Py1oCUGywi8BiTUZ8asY9OVSIPuPx9h9pmFSYtnJpM3nUgqUK9LXd1cIlztrhMwiv6hu2DSdbjsluFNzYb5w%2F37jb0lz4p5gpn1CvoH0Z4yNmDwCI1ZVdwMOWCMY9kxV%2B0ggHtRENyLBvhZ9rugkPF%2BBcG6sclxTRLeDenOn4RZv&signature=21388f38d51022a179f8dd74d096e789&timestamp=1767889867\r\nDate: Thu, 08 Jan 2026 16:31:07 GMT\r\nContent-Length: 0\r\nContent-Type: text/plain; charset=utf-8\r\n\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "e6223339eaa04e2bb7d04f84b2f6b656",
+  "timestamp": "2026-01-09 00:31:08"
+}

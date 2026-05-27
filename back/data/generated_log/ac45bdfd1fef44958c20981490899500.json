@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /static/css/main.css HTTP/1.1\nHost:  www.example.com \nAccept: text/css,*/*;q=0.1\nIf-Modified-Since: Wed, 15 Jun 2025 08:00:00 GMT\nConnection: close\n"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": ""
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "ac45bdfd1fef44958c20981490899500",
+  "timestamp": "2026-01-06 22:44:07"
+}

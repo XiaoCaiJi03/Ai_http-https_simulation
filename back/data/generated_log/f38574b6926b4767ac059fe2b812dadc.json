@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /api/ping?ip=8.8.8.8;cat /etc/passwd HTTP/1.1\nHost:  www.baidu.com \nUser-Agent: EvilBot/1.0\nConnection: keep-alive"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 400 Bad Request\r\n\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "f38574b6926b4767ac059fe2b812dadc",
+  "timestamp": "2026-01-06 20:06:18"
+}

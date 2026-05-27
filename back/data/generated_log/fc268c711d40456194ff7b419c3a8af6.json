@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=桂林 HTTP/1.1\nHost: www.baidu.com\nUser-Agent: Simulation-Lab/1.0\nConnection: keep-alive\nAccept: */*\n"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": ""
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "fc268c711d40456194ff7b419c3a8af6",
+  "timestamp": "2026-01-09 00:32:31"
+}

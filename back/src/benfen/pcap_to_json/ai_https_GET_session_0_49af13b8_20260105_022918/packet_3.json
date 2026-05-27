@@ -1,0 +1,157 @@
+{
+  "_index": "packets-2026-01-05",
+  "_score": null,
+  "_source": {
+    "layers": {
+      "frame": {
+        "frame.encap_type": "129",
+        "frame.time": "2026-01-04T18:29:18.652059000Z",
+        "frame.time_utc": "2026-01-04T18:29:18.652059000Z",
+        "frame.time_epoch": "2026-01-04T18:29:18.652059000Z",
+        "frame.offset_shift": "0.000000000",
+        "frame.time_delta": "0.088273000",
+        "frame.time_delta_displayed": "0.088273000",
+        "frame.time_relative": "0.089429000",
+        "frame.number": "4",
+        "frame.len": "119",
+        "frame.cap_len": "119",
+        "frame.marked": "0",
+        "frame.ignored": "0",
+        "frame.protocols": "raw:ip:tcp:tls",
+        "frame.encoding": "0"
+      },
+      "raw": "Raw packet data",
+      "ip": {
+        "ip.version": "4",
+        "ip.hdr_len": "20",
+        "ip.dsfield": "0x00",
+        "ip.dsfield_tree": {
+          "ip.dsfield.dscp": "0",
+          "ip.dsfield.ecn": "0"
+        },
+        "ip.len": "119",
+        "ip.id": "0x0001",
+        "ip.flags": "0x00",
+        "ip.flags_tree": {
+          "ip.flags.rb": "0",
+          "ip.flags.df": "0",
+          "ip.flags.mf": "0"
+        },
+        "ip.frag_offset": "0",
+        "ip.ttl": "64",
+        "ip.proto": "6",
+        "ip.checksum": "0xdaf0",
+        "ip.checksum.status": "2",
+        "ip.src": "192.168.1.101",
+        "ip.addr": "121.41.100.89",
+        "ip.src_host": "192.168.1.101",
+        "ip.host": "121.41.100.89",
+        "ip.dst": "121.41.100.89",
+        "ip.dst_host": "121.41.100.89",
+        "ip.stream": "0"
+      },
+      "tcp": {
+        "tcp.srcport": "34419",
+        "tcp.dstport": "443",
+        "tcp.port": "443",
+        "tcp.stream": "0",
+        "tcp.stream.pnum": "4",
+        "tcp.completeness": "7",
+        "tcp.completeness_tree": {
+          "tcp.completeness.rst": "0",
+          "tcp.completeness.fin": "0",
+          "tcp.completeness.data": "0",
+          "tcp.completeness.ack": "1",
+          "tcp.completeness.syn-ack": "1",
+          "tcp.completeness.syn": "1",
+          "tcp.completeness.str": "···ASS"
+        },
+        "tcp.len": "79",
+        "tcp.seq": "1",
+        "tcp.seq_raw": "7120869",
+        "tcp.nxtseq": "80",
+        "tcp.ack": "1",
+        "tcp.ack_raw": "3728883",
+        "tcp.hdr_len": "20",
+        "tcp.flags": "0x0018",
+        "tcp.flags_tree": {
+          "tcp.flags.res": "0",
+          "tcp.flags.ae": "0",
+          "tcp.flags.cwr": "0",
+          "tcp.flags.ece": "0",
+          "tcp.flags.urg": "0",
+          "tcp.flags.ack": "1",
+          "tcp.flags.push": "1",
+          "tcp.flags.reset": "0",
+          "tcp.flags.syn": "0",
+          "tcp.flags.fin": "0",
+          "tcp.flags.str": "·······AP···"
+        },
+        "tcp.window_size_value": "8192",
+        "tcp.window_size": "8192",
+        "tcp.window_size_scalefactor": "-2",
+        "tcp.checksum": "0x67bb",
+        "tcp.checksum.status": "2",
+        "tcp.urgent_pointer": "0",
+        "Timestamps": {
+          "tcp.time_relative": "0.089429000",
+          "tcp.time_delta": "0.088273000"
+        },
+        "tcp.analysis": {
+          "tcp.analysis.initial_rtt": "0.001156000",
+          "tcp.analysis.bytes_in_flight": "79",
+          "tcp.analysis.push_bytes_sent": "79"
+        },
+        "tcp.stream.client.contiguity_count": "1",
+        "tcp.stream.server.contiguity_count": "1",
+        "tcp.payload": "16:03:03:00:4a:01:00:00:46:03:03:97:32:a1:ad:5b:da:4e:dd:1f:a9:71:23:85:6a:26:bc:2e:4f:53:61:40:2b:a1:5d:31:c0:83:a8:ae:c0:ea:f5:10:d2:e9:11:47:0b:e2:61:a0:50:f5:c1:9e:f2:b8:4e:5c:00:02:13:01:01:00:00:0b:00:2b:00:03:01:03:04:00:23:00:00"
+      },
+      "tls": {
+        "tls.stream": "0",
+        "tls.record": {
+          "tls.record.content_type": "22",
+          "tls.record.version": "0x0303",
+          "tls.record.length": "74",
+          "tls.handshake": {
+            "tls.handshake.type": "1",
+            "tls.handshake.length": "70",
+            "tls.handshake.version": "0x0303",
+            "tls.handshake.version_tree": {
+              "_ws.expert": {
+                "tls.handshake.legacy_version": "",
+                "_ws.expert.message": "This legacy_version field MUST be ignored. The supported_versions extension is present and MUST be used instead.",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "234881024"
+              }
+            },
+            "tls.handshake.random": "97:32:a1:ad:5b:da:4e:dd:1f:a9:71:23:85:6a:26:bc:2e:4f:53:61:40:2b:a1:5d:31:c0:83:a8:ae:c0:ea:f5",
+            "tls.handshake.random_tree": {
+              "tls.handshake.random_time": "2050-05-20T16:43:25.000000000Z",
+              "tls.handshake.random_bytes": "5b:da:4e:dd:1f:a9:71:23:85:6a:26:bc:2e:4f:53:61:40:2b:a1:5d:31:c0:83:a8:ae:c0:ea:f5"
+            },
+            "tls.handshake.session_id_length": "16",
+            "tls.handshake.session_id": "d2:e9:11:47:0b:e2:61:a0:50:f5:c1:9e:f2:b8:4e:5c",
+            "tls.handshake.cipher_suites_length": "2",
+            "tls.handshake.ciphersuites": {
+              "tls.handshake.ciphersuite": "0x1301"
+            },
+            "tls.handshake.comp_methods_length": "1",
+            "tls.handshake.comp_methods": {
+              "tls.handshake.comp_method": "0"
+            },
+            "tls.handshake.extensions_length": "11",
+            "tls.handshake.extension": {
+              "tls.handshake.extension.type": "35",
+              "tls.handshake.extension.len": "0",
+              "tls.handshake.extensions.session_ticket": ""
+            },
+            "tls.handshake.ja4": "t12i010200_0f2cb44170f4_12c6e99676af",
+            "tls.handshake.ja4_r": "t12i010200_1301_0023,002b",
+            "tls.handshake.ja3_full": "771,4865,43-35,,",
+            "tls.handshake.ja3": "b9cfe50269a1cc2b299e145105523ce2"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "operation": "big_concurrent_simulation",
+  "request": {
+    "concurrency": 600,
+    "duration": 5
+  },
+  "response": {
+    "status": "success",
+    "startTime": 1779708817880.5608,
+    "endTime": 1779708822977.4905,
+    "duration": 5096.9296875
+  },
+  "recordId": "e3bdc90aa22742aeac2a4a7aac724f6e",
+  "timestamp": "2026-05-25 19:33:42"
+}

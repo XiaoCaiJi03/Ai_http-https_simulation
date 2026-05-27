@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /admin?user=admin'; DROP TABLE users;-- HTTP/1.1\nHost: testfire.net\nUser-Agent: Python-urllib/3.11\nAccept: */*\n"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 400 Bad Request\r\nServer: Apache-Coyote/1.1\r\nTransfer-Encoding: chunked\r\nDate: Thu, 08 Jan 2026 12:21:47 GMT\r\nConnection: close\r\n\r\n0\r\n\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "1b34afa6d3e24e36a2fcc60a5927501d",
+  "timestamp": "2026-01-08 20:21:48"
+}

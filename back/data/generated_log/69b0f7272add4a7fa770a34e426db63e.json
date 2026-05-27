@@ -1,0 +1,15 @@
+{
+  "request": {
+    "url": "engine_simulation",
+    "full_http_request": "GET /login.php?user=<script>alert(1)</script> HTTP/1.1\nHost: www.target.com\nUser-Agent: sqlmap/1.0\nConnection: close\n\n"
+  },
+  "response": {
+    "statusCode": 200,
+    "httpResponseContent": "HTTP/1.1 301 Moved Permanently\r\nConnection: close\r\nContent-Length: 0\r\nRetry-After: 0\r\nLocation: https://www.target.com/login.php?user=<script>alert(1)</script>\r\nAccept-Ranges: bytes\r\nDate: Fri, 09 Jan 2026 04:11:46 GMT\r\nx-frame-options: SAMEORIGIN\r\nContent-Security-Policy: frame-ancestors 'self' https://*.target.com;\r\nX-Content-Type-Options: nosniff\r\nReferrer-Policy: no-referrer-when-downgrade\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains\r\nCache-Control: no-cache\r\nSet-Cookie: TealeafAkaSid=EtLWz6jJ1LncAyYpIEA_VT3zPCvdwVtA; Expires=Sun, 08 Feb 2026 04:11:46 GMT; Path=/; Domain=target.com;\r\n\r\n"
+  },
+  "meta": {
+    "isPipeline": false
+  },
+  "recordId": "69b0f7272add4a7fa770a34e426db63e",
+  "timestamp": "2026-01-09 12:11:48"
+}
